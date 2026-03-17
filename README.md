@@ -3,13 +3,13 @@
 [![crates.io](https://img.shields.io/crates/v/agentgif)](https://crates.io/crates/agentgif)
 [![Rust](https://img.shields.io/badge/Rust-1.70%2B-orange)](https://www.rust-lang.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![AgentGIF Badge](https://agentgif.com/badge/crates/agentgif/version.svg?theme=dracula)](https://agentgif.com/badge/)
+[![AgentGIF Badge](https://agentgif.com/badge/crates/agentgif/version.svg?theme=dracula)](https://agentgif.com/docs/cli/)
 
 **CLI for [AgentGIF](https://agentgif.com) — upload, manage, and share terminal GIFs from the command line.**
 
 [AgentGIF](https://agentgif.com) is a developer GIF hosting platform built for terminal recordings. Upload GIFs with asciicast files for interactive replay across 15 terminal themes, generate terminal-themed package badges as a shields.io alternative, and share command-line demos with embed codes for GitHub READMEs and documentation. Built with Rust using [clap](https://crates.io/crates/clap) + [reqwest](https://crates.io/crates/reqwest) + [serde](https://crates.io/crates/serde).
 
-> **Try it live at [agentgif.com](https://agentgif.com)** — [Explore GIFs](https://agentgif.com/explore/) | [Badge Generator](https://agentgif.com/badge/) | [Upload](https://agentgif.com/upload/)
+> **Try it live at [agentgif.com](https://agentgif.com)** — [Explore GIFs](https://agentgif.com/explore/) | [Badge Generator](https://agentgif.com/docs/cli/) | [Upload](https://agentgif.com/upload/)
 
 ## Table of Contents
 
@@ -99,7 +99,7 @@ Learn more: [Terminal Themes](https://agentgif.com/themes/) · [Explore GIFs](ht
 
 ### Terminal-Themed Package Badges
 
-The [AgentGIF badge service](https://agentgif.com/badge/) generates terminal-themed SVG badges — a developer-native alternative to shields.io. Badges render as terminal prompts with live data from PyPI, npm, crates.io, and GitHub.
+The [AgentGIF badge service](https://agentgif.com/docs/cli/) generates terminal-themed SVG badges — a developer-native alternative to shields.io. Badges render as terminal prompts with live data from PyPI, npm, crates.io, and GitHub.
 
 ```bash
 # crates.io version badge
@@ -122,7 +122,7 @@ agentgif badge url -p crates -k clap --format md
 **Metrics:** `version`, `downloads`, `stars`
 **Themes:** All 15 terminal themes — `dracula`, `monokai`, `catppuccin-mocha`, `nord`, etc.
 
-Learn more: [Badge Generator](https://agentgif.com/badge/) · [Badge Documentation](https://agentgif.com/docs/cli/)
+Learn more: [Badge Generator](https://agentgif.com/docs/cli/) · [Badge Documentation](https://agentgif.com/docs/cli/)
 
 ### AI Tape Generator
 
@@ -147,7 +147,7 @@ agentgif list --repo "myorg/myrepo"
 agentgif info abc12345
 ```
 
-Learn more: [Collections](https://agentgif.com/collections/) · [Tags](https://agentgif.com/tags/)
+Learn more: [Collections](https://agentgif.com/collections/) · [Tags](https://agentgif.com/collections/)
 
 ### Search and Embed
 
@@ -161,7 +161,7 @@ agentgif search "cargo build"
 agentgif embed abc12345 --format md
 ```
 
-Learn more: [Search GIFs](https://agentgif.com/search/) · [Embed Documentation](https://agentgif.com/docs/cli/)
+Learn more: [Search GIFs](https://agentgif.com/explore/) · [Embed Documentation](https://agentgif.com/docs/cli/)
 
 ## Commands
 
@@ -237,9 +237,9 @@ All implementations share the same command interface and API.
 ## Learn More About AgentGIF
 
 - **Platform**: [agentgif.com](https://agentgif.com) — Developer GIF hosting for terminal recordings
-- **Explore**: [Browse Terminal GIFs](https://agentgif.com/explore/) · [Collections](https://agentgif.com/collections/) · [Tags](https://agentgif.com/tags/)
-- **Tools**: [Badge Generator](https://agentgif.com/badge/) · [AI Tape Generator](https://agentgif.com/generate/) · [Upload](https://agentgif.com/upload/)
-- **Search**: [Search GIFs](https://agentgif.com/search/) · [Terminal Themes](https://agentgif.com/themes/)
+- **Explore**: [Browse Terminal GIFs](https://agentgif.com/explore/) · [Collections](https://agentgif.com/collections/) · [Tags](https://agentgif.com/collections/)
+- **Tools**: [Badge Generator](https://agentgif.com/docs/cli/) · [AI Tape Generator](https://agentgif.com/generate/) · [Upload](https://agentgif.com/upload/)
+- **Search**: [Search GIFs](https://agentgif.com/explore/) · [Terminal Themes](https://agentgif.com/themes/)
 - **Docs**: [CLI Documentation](https://agentgif.com/docs/cli/) · [API Reference](https://agentgif.com/docs/api/)
 
 ## License
